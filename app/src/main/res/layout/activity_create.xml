@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:screenOrientation="portrait"
+    android:layout_height="match_parent"
+    android:background="@mipmap/wallpaper"
+    tools:context=".Create">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+        <ImageView
+            android:id="@+id/imageTank"
+            android:freezesText="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tank" />
+
+        <ImageView
+            android:id="@+id/imageSupport"
+            android:layout_width="match_parent"
+            android:freezesText="true"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/support" />
+
+        <ImageView
+            android:id="@+id/imageWarrior"
+            android:layout_width="match_parent"
+            android:freezesText="true"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/warrior" />
+
+        <ImageView
+            android:id="@+id/imageNinja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            app:srcCompat="@drawable/ninja" />
+
+        <ImageView
+            android:id="@+id/imageMage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            app:srcCompat="@drawable/mage" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:freezesText="true"
+            android:visibility="gone"
+            android:textColor="#FFF"
+            android:inputType="textPersonName"
+            android:hint="Név" />
+
+        <TextView
+            android:id="@+id/textViewLevel"
+            android:layout_width="fill_parent"
+            android:textColor="#FFF"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="Szint"
+            tools:layout_editor_absoluteX="177dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <TextView
+            android:id="@+id/textViewType"
+            android:textColor="#FFF"
+            android:layout_width="fill_parent"
+            android:freezesText="true"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Karakter kasztja" />
+
+
+        <EditText
+            android:id="@+id/editTextCity"
+            android:freezesText="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:visibility="gone"
+            android:inputType="textPersonName"
+            android:textColor="#FFF"
+            android:hint="Város" />
+
+
+        <TextView
+            android:id="@+id/textViewHit"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center_vertical|end"
+            android:freezesText="true"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:text="Sebzés" />
+
+        <EditText
+            android:id="@+id/editTextBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:ems="10"
+            android:layout_gravity="center_vertical|end"
+            android:freezesText="true"
+        android:gravity="center"
+            android:visibility="gone"
+            android:inputType="textPersonName"
+            android:hint="Karakter háttértörténete"/>
+
+        <Button
+            android:id="@+id/buttonGenerate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="Karakter generálása" />
+        <TextView
+            android:id="@+id/mettol"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:layout_gravity="center_vertical|end"
+            android:freezesText="true"
+            android:gravity="center"
+            android:text="1 könnyű ... 5 nezéz!   Sebzes/nehezseg" />
+        <EditText
+            android:id="@+id/paramether"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:ems="10"
+            android:gravity="center"
+            android:freezesText="true"
+            android:inputType="number"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/saveToJson"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:freezesText="true"
+            android:text="Mentés Json-be és Firebase-ra"/>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:freezesText="true"
+            android:text="Vissza a kezdőoldalra"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
