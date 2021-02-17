@@ -5,7 +5,7 @@ Native platformon kipróbálási lehetőség: https://appetize.io/app/qff16hg1x5
 
 ## Index page
 
-![MAP](https://firebasestorage.googleapis.com/v0/b/rpggenerator-58459.appspot.com/o/1.1.png?alt=media&token=a32b2d59-003e-4144-aa98-02b530ad8898)
+![MAP](https://firebasestorage.googleapis.com/v0/b/rpggenerator-58459.appspot.com/o/1.1.png?alt=media&token=b5686b5f-171a-4c5a-bf98-07650ab7f90a)
 
 ## Creator page
 
